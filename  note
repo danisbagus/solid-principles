@@ -11,3 +11,7 @@ Open closed
 Liskov Substitute
 - objects must be replaceable by instances of their subtypes without altering the correct functioning of our system.
 -- we should only extend classes and use interfaces or abstract classes if it makes sense. If you extend from a class or interface which have functions that you don’t need. Then you have created an incorrectness.
+
+interface Segregation
+- Many client-specific interfaces are better than one general-purpose interface.
+-- a class should never implement an interface that does not go to use
