@@ -7,3 +7,7 @@ Single Responsibility
 Open closed
 - Objects or entities should be open for extension but closed for modification
 -- a software entity must be easily extensible with new features without having to modify its existing code in use
+
+Liskov Substitute
+- objects must be replaceable by instances of their subtypes without altering the correct functioning of our system.
+-- we should only extend classes and use interfaces or abstract classes if it makes sense. If you extend from a class or interface which have functions that you don’t need. Then you have created an incorrectness.
