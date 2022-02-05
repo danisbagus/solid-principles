@@ -1,5 +1,9 @@
 SOLID Principles
 
 Single Responsibility
-- A class should have only one reason to change
+- A class should have one and only one reason to change
+-- a class should have only one job/responsibility
 
+Open closed
+- Objects or entities should be open for extension but closed for modification
+-- a software entity must be easily extensible with new features without having to modify its existing code in use
